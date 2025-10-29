@@ -33,6 +33,7 @@ nav h1{
     padding: 1rem 2rem;
     font-size: 2rem;
     text-align: center;
+    text-shadow: 2px 2px 5px rgb(133, 121, 121);
     
 }
 nav info img{
@@ -113,30 +114,33 @@ header button:hover{
     margin:1rem 2rem;
     border-radius: 1.5rem;
     padding: 1rem;
+    box-shadow: 2px 2px 5px #666;
 }
-#section1 h3{
+#section1 h3 , #section2 h3 , #section3 h3{
     font-size: 15px;
     padding: 6px;
     color: #222;
 }
-#section1 p{
+#section1 p , #section2 p , #section3 p{
     text-align: center;
     font-size: 2.2rem;
     color: #333;
     margin-top: 12%;
 }
-#section1 .last{
+#section1 .last , #section2 .last{
     margin-top: 15%;
     display: flex;
     justify-content: space-between;
-
-font-size: larger;}
+/* font-size: larger; */
+}
 #section2{
     background-color: #F6D78B;
     grid-area: section2;
     margin: 1rem 2rem;
     border-radius: 1.5rem;
     padding: 1rem;
+    box-shadow: 2px 2px 5px #666;
+
 }
 #section3{
     background-color: #A2A6FD;
@@ -144,6 +148,8 @@ font-size: larger;}
     margin: 1rem 2rem;
     border-radius: 1.5rem;
     padding: 1rem;
+    box-shadow: 2px 2px 5px #666;
+
 }
 
 #aside1{
@@ -151,12 +157,76 @@ font-size: larger;}
     grid-area: aside1;
 }
 #aside2{
-    background-color:#E4E1D7 ;
     grid-area: aside2;
+    background-color: #333;
+}
+#aside2 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: #cfcecc;
+    padding: 12px;
+}
+.payment{
+    border-radius: 20px solid transparent;
+}
+.payment .user1{
+    color: #333;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px ;
+}
+.payment .user2{
+    color: #333;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px ;
+}
+.payment .user3{
+    color: #333;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px ;
+}
+.payment .user4{
+    color: #333;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px ;
+}
+.payment .user5{
+    color: #333;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px ;
+}
+.payment .user6{
+    color: #333;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px ;
 }
 article{
     background-color: #cfcecc;
     grid-area: article;
     border-radius: 2rem;
     margin: 1rem;
+
 }
